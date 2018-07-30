@@ -77,9 +77,8 @@ def all_supplies_in_holidays(holiday_hash)
       output.each do |word|
         word.strip!
         word.capitalize!
-        puts word
-        output.join
       end
+      ouput.join
     end
   end
 end
