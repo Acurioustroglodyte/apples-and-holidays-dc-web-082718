@@ -78,6 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.strip!
         word.capitalize!
       end
+      output.join
     end
   end
 end
