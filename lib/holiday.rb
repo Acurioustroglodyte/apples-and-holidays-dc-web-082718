@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.to_s.capitalize}:"
     holiday.each do |day, items|
       output = " #{day.to_s.match(/[\D]+/)}:"
-      output = output.split("_")
+      output = output.split("_").strip
       binding.pry
       output.each do |word|
         word.capitalize!
