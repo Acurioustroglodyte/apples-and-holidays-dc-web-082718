@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
       end
       holiday_output = holiday_output.join(" ")
       # Format items output
-      items_output = items.to_s
+      items_output = items.join(" ")
 
       # Print output *high fives*
       puts " #{holiday_output} #{items_output}"
