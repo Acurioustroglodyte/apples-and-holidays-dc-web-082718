@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
       output = output.split("_").chomp
       output.each do |word|
         word.capitalize!
-
+        puts word
       end
     end
   end
