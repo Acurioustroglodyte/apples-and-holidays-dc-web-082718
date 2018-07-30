@@ -77,14 +77,12 @@ def all_supplies_in_holidays(holiday_hash)
       output.each do |word|
         word.capitalize
       end
-      binding.pry
+      # binding.pry
       # puts "#{output}, items"
     end
   end
 end
-# Iterate through each season of holiday_hash
-# Iterate through each holiday per season
-# TBD.....
+
 
 all_supplies_in_holidays(holiday_supplies)
 
