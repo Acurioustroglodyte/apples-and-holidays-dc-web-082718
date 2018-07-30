@@ -79,11 +79,10 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize!
       end
       holiday_output = holiday_output.join(" ")
-      puts holiday_output
       # Format items output
       
       # Print output *high fives*
-
+      puts " #{holiday_output}"
     end
   end
 end
