@@ -75,10 +75,9 @@ def all_supplies_in_holidays(holiday_hash)
       output = " #{day.to_s.match(/[\D]+/)}:"
       output = output.split("_")
       output.each do |word|
-        word.capitalize
+        word.capitalize!
       end
-      # binding.pry
-      # puts "#{output}, items"
+      
     end
   end
 end
