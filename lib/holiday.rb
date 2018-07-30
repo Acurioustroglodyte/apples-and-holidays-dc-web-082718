@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
       # Format items output
 
       # Print output *high fives*
-      puts "#{holiday_output} #{items_output}"
+      puts "#{holiday_output} #{}"
     end
   end
 end
